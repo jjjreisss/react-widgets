@@ -33,7 +33,7 @@ var WeatherClock = React.createClass({
           description: data.weather[0].description
         }
       });
-      console.log(data);
+      // console.log(data);
     }.bind(this);
 
 
