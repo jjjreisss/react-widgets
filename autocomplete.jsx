@@ -2,7 +2,7 @@ var React = require('react');
 
 var Autocomplete = React.createClass({
   getInitialState: function(){
-    return {searchField: "", searchResults: [], filledIn: ""};
+    return {searchField: ""};
   },
   search: function(e) {
     this.setState({searchField: e.target.value});
